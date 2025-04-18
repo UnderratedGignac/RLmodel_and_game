@@ -10,7 +10,7 @@ from collections import deque
 # ==================== Game Settings ==================== #
 SCREEN_WIDTH = 400  # Increased window size
 SCREEN_HEIGHT = 600
-FPS = 20  # Slower frame rate
+FPS = 2 # Slower frame rate
 
 COLORS = {
     'black': (0, 0, 0),
@@ -18,28 +18,28 @@ COLORS = {
     'red': (255, 0, 0)
 }
 # Player settings (larger size)
-PLAYER_WIDTH = 30
-PLAYER_HEIGHT = 40
-PLAYER_SPEED = 9
-PLAYER_SCALE_FACTOR = 0.5  # Reduced from 1.8 to make the player smaller
+PLAYER_WIDTH = 10
+PLAYER_HEIGHT = 20
+PLAYER_SPEED = 1
+PLAYER_SCALE_FACTOR = 0.3  # Reduced from 1.8 to make the player smaller
 
 # Enemy settings (balanced for avoidability)
 ENEMY_WIDTH = 70
 ENEMY_WIDTH = 70
 ENEMY_HEIGHT = 70
-ENEMY_SPEED = 6  # Slightly reduced speed
+ENEMY_SPEED = 1  # Slightly reduced speed
 MIN_ENEMY_SPAWN_DISTANCE = 150  # Prevent clustered spawning
 
 # Collectible settings
 ITEM_WIDTH = 60
 ITEM_HEIGHT = 60
-ITEM_SPEED = 6
+ITEM_SPEED = 1
 
 # Spawn intervals (adjusted for fairness)
 SPAWN_INTERVAL_MIN = 50
 SPAWN_INTERVAL_MAX = 70
 ITEM_SPAWN_INTERVAL_MIN = 50
-ITEM_SPAWN_INTERVAL_MAX = 70
+ITEM_SPAWN_INTERVAL_MAX = 200
 
 
 class DodgeGameAI:
