@@ -1,7 +1,3 @@
-Certainly! Below is the complete content that you can directly copy and paste into your `README.md` file. This content is formatted in Markdown and includes all the necessary sections to describe your project effectively.
-
----
-
 # RL Model and Game
 
 ![GitHub License](https://img.shields.io/github/license/UnderratedGignac/RLmodel_and_game?style=flat-square)  
